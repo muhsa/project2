@@ -9,7 +9,7 @@ COPY package-lock.json
 
 RUN npm install
 
-EXPOSE 3000
-COPY ../ .
+EXPOSE 8080
+COPY ./
 
 CMD["npm", "start"]
