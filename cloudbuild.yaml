@@ -19,7 +19,7 @@ steps:
     - 'us-east1'
     - '--platform'
     - 'managed'
-    - 'port'
+    - '--port'
     - '80'
     - '--allow-unauthenticated'
 images:
