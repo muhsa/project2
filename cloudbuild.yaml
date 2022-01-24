@@ -20,7 +20,8 @@ steps:
     - '--platform'
     - 'managed'
     - 'set-env-vars'
-    - 'Environemnt=Dev'
+    - 'Environemnt'
+    - 'Dev'
     - '--allow-unauthenticated'
 images:
 - 'gcr.io/${PROJECT_ID}/mycalc:$COMMIT_SHA'
