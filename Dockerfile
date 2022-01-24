@@ -10,6 +10,6 @@ COPY package-lock.json
 RUN npm install
 
 EXPOSE 3000
-COPY ../
+COPY ../ .
 
 CMD["npm", "start"]
